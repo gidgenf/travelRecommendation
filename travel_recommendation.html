@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelUtopia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#">TravelUtopia</a>
+            <ul class="nav-links">
+                <li><a href="travel_recommendation.html">Home</a></li>
+                <li><a href="aboutUs.html">About us</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search your dreams...">
+                <button onclick="search()" class="btn">Search</button>
+                <button onclick="clearSearch()" class="btn">Clear</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <aside class="sidebar">
+            <ul class="social-icons">
+                <li><a href="#"><img src="images/facebookicon.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="images/twittericon.png" alt="Twitter"></a></li>
+                <li><a href="#"><img src="images/instagramicon.png" alt="Instagram"></a></li>
+            </ul>
+        </aside>
+
+        <div class="container2">
+            <h1 class="slogan">EXPLORE THE PLACE OF YOUR DREAMS</h1>
+            <p>At TravelUtopia, we believe that the world is meant to be explored, experienced, and cherished. Whether
+                you're a seasoned traveler seeking new adventures or a first-time explorer ready to embark on a journey
+                of
+                discovery, we're here to inspire and guide you every step of the way.</p>
+        </div>
+
+        <div class="resultsContainer">
+
+        </div>
+    </main>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+
+</html>
